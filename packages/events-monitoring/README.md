@@ -1,6 +1,6 @@
-# Ethereum Event Monitoring
+# `Ethereum Event Monitoring`
 
-Frontend : https://gitlab.com/damarnez/events-monitoring-front
+
 
 ![](.doc/schema.png)
 
