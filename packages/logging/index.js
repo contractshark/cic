@@ -21,11 +21,11 @@ Object.defineProperty(exports, 'getLogger', {
     }
 });
 
-const Log4j2Error = require('./utils/log4j2-error-util');
+const Log4evm2Error = require('./utils/log4j2-error-util');
 
-Object.defineProperty(exports, 'Log4j2Error', {
+Object.defineProperty(exports, 'Log4evm2Error', {
     enumerable: true,
     get: function get() {
-        return Log4j2Error;
+        return Log4evm2Error;
     }
 });

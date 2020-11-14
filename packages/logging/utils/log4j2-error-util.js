@@ -1,10 +1,10 @@
 'use strict';
 
-class Log4j2Error extends Error {
+class Log4evm2Error extends Error {
     constructor(message, code) {
         super(message);
         this.code = code;
-        this.name = 'Log4j2Error';
+        this.name = 'Log4evm2Error';
     }
 
 
@@ -12,7 +12,7 @@ class Log4j2Error extends Error {
         if (typeof o === 'object' && !Array.isArray(o)) {
             return true;
         }
-        throw new Log4j2Error(message, 1);
+        throw new Log4evm2Error(message, 1);
     }
 
 
@@ -20,7 +20,7 @@ class Log4j2Error extends Error {
         if (typeof o === 'object') {
             return true;
         }
-        throw new Log4j2Error(message, 2);
+        throw new Log4evm2Error(message, 2);
     }
 
 
@@ -28,7 +28,7 @@ class Log4j2Error extends Error {
         if (Array.isArray(o)) {
             return true;
         }
-        throw new Log4j2Error(message, 3);
+        throw new Log4evm2Error(message, 3);
     }
 
    
@@ -36,8 +36,8 @@ class Log4j2Error extends Error {
         if (key in o) {
             return true;
         }
-        throw new Log4j2Error(message, 4);
+        throw new Log4evm2Error(message, 4);
     }
 }
 
-module.exports = Log4j2Error;
+module.exports = Log4evm2Error;

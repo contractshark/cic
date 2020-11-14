@@ -16,7 +16,7 @@ const sendLogEventToAppender = (logEvent) => {
         if (Levels.isConsole(catObject.level, logEvent.level)) appender.exec(logEvent);
     });
 };
-class Log4j2 {
+class Log4evm2 {
     /**
      * json configuration file 
      */
@@ -46,6 +46,6 @@ const def = {
     }
 };
 
-Log4j2.configure(def);
+Log4evm2.configure(def);
 
-module.exports = Log4j2;
+module.exports = Log4evm2;
