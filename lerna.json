@@ -1,6 +1,13 @@
+
 {
-  "packages": [
-    "packages/*"
-  ],
-  "version": "0.0.0"
+    "lerna": "3.22.1",
+    "packages": ["packages/*", "contracts/*"],
+    "version": "independent",
+    "command": {
+        "publish": {
+            "ignoreChanges": ["test/**/*", "*.md", "scripts", "lib", "tslint.json", "tsconfig.json"]
+        }
+    },
+    "npmClient": "yarn",
+    "useWorkspaces": true
 }

@@ -1,7 +1,15 @@
 {
   "name": "root",
+    "engines": {
+        "node": ">=6.12"
+    },
+    "workspaces": [
+        "packages/*",
+        "contracts/*"
+    ],
   "private": true,
   "devDependencies": {
-    "lerna": "^3.22.1"
+    "lerna": "^3.22.1",
+    "wsrun": "^5.2.4"
   }
 }
