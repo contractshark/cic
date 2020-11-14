@@ -1,0 +1,73 @@
+.
+├── [ 384]  ./events-monitoring
+│   ├── [1.1K]  ./events-monitoring/README.md
+│   ├── [ 659]  ./events-monitoring/docker-compose.yaml
+│   ├── [304K]  ./events-monitoring/package-lock.json
+│   ├── [1.2K]  ./events-monitoring/package.json
+│   ├── [4.8K]  ./events-monitoring/serverless.yml
+│   └── [ 352]  ./events-monitoring/src
+│       ├── [ 128]  ./events-monitoring/src/CheckConditions
+│       │   ├── [1.3K]  ./events-monitoring/src/CheckConditions/handler.ts
+│       │   └── [ 282]  ./events-monitoring/src/CheckConditions/mock.json
+│       ├── [ 128]  ./events-monitoring/src/CreateNewWatch
+│       │   ├── [2.2K]  ./events-monitoring/src/CreateNewWatch/handler.ts
+│       │   └── [   0]  ./events-monitoring/src/CreateNewWatch/mock.json
+│       ├── [  96]  ./events-monitoring/src/FilterEvents
+│       │   └── [1.4K]  ./events-monitoring/src/FilterEvents/handler.ts
+│       ├── [ 128]  ./events-monitoring/src/SendEmailByTopic
+│       │   ├── [1.8K]  ./events-monitoring/src/SendEmailByTopic/handler.ts
+│       │   └── [9.6K]  ./events-monitoring/src/SendEmailByTopic/mock.json
+│       ├── [  96]  ./events-monitoring/src/UnsubscribeEmailByToken
+│       │   └── [1.2K]  ./events-monitoring/src/UnsubscribeEmailByToken/handler.ts
+│       ├── [  96]  ./events-monitoring/src/UpdateCounterStatus
+│       │   └── [1.7K]  ./events-monitoring/src/UpdateCounterStatus/handler.ts
+│       ├── [  96]  ./events-monitoring/src/ValidateEmailByToken
+│       │   └── [1.2K]  ./events-monitoring/src/ValidateEmailByToken/handler.ts
+│       ├── [ 128]  ./events-monitoring/src/WatchLogsFromEthereum
+│       │   ├── [2.5K]  ./events-monitoring/src/WatchLogsFromEthereum/handler.ts
+│       │   └── [3.0K]  ./events-monitoring/src/WatchLogsFromEthereum/logswatcher.ts
+│       └── [ 288]  ./events-monitoring/src/utils
+│           ├── [1.7K]  ./events-monitoring/src/utils/dynamodb.ts
+│           ├── [ 814]  ./events-monitoring/src/utils/filterStreams.ts
+│           ├── [ 551]  ./events-monitoring/src/utils/lambda.ts
+│           ├── [2.1K]  ./events-monitoring/src/utils/redis.ts
+│           ├── [ 374]  ./events-monitoring/src/utils/responses.ts
+│           ├── [2.2K]  ./events-monitoring/src/utils/sendEmail.ts
+│           └── [ 886]  ./events-monitoring/src/utils/types.ts
+├── [ 384]  ./events-monitoring-front
+│   ├── [  83]  ./events-monitoring-front/README.md
+│   ├── [ 989]  ./events-monitoring-front/package.json
+│   ├── [ 103]  ./events-monitoring-front/postcss.config.js
+│   ├── [ 224]  ./events-monitoring-front/public
+│   │   ├── [3.1K]  ./events-monitoring-front/public/favicon.png
+│   │   ├── [ 949]  ./events-monitoring-front/public/global.css
+│   │   ├── [ 19K]  ./events-monitoring-front/public/index.css
+│   │   ├── [ 510]  ./events-monitoring-front/public/index.html
+│   │   └── [  59]  ./events-monitoring-front/public/tailwind.css
+│   ├── [1.8K]  ./events-monitoring-front/rollup.config.js
+│   ├── [  96]  ./events-monitoring-front/scripts
+│   │   └── [4.2K]  ./events-monitoring-front/scripts/setupTypeScript.js
+│   ├── [ 256]  ./events-monitoring-front/src
+│   │   ├── [3.0K]  ./events-monitoring-front/src/App.svelte
+│   │   ├── [ 192]  ./events-monitoring-front/src/components
+│   │   │   ├── [  96]  ./events-monitoring-front/src/components/Error
+│   │   │   │   └── [ 607]  ./events-monitoring-front/src/components/Error/index.svelte
+│   │   │   ├── [ 128]  ./events-monitoring-front/src/components/Form
+│   │   │   │   ├── [2.2K]  ./events-monitoring-front/src/components/Form/index.svelte
+│   │   │   │   └── [ 116]  ./events-monitoring-front/src/components/Form/store.js
+│   │   │   ├── [  96]  ./events-monitoring-front/src/components/SelectEvent
+│   │   │   │   └── [2.3K]  ./events-monitoring-front/src/components/SelectEvent/index.svelte
+│   │   │   └── [  96]  ./events-monitoring-front/src/components/Success
+│   │   │       └── [ 677]  ./events-monitoring-front/src/components/Success/index.svelte
+│   │   ├── [ 523]  ./events-monitoring-front/src/example.json
+│   │   ├── [ 132]  ./events-monitoring-front/src/main.js
+│   │   ├── [  96]  ./events-monitoring-front/src/services
+│   │   │   └── [ 553]  ./events-monitoring-front/src/services/api.js
+│   │   └── [ 135]  ./events-monitoring-front/src/store.js
+│   └── [ 230]  ./events-monitoring-front/tailwind.config.js
+├── [  63]  ./lerna.json
+├── [  91]  ./package.json
+├── [  64]  ./packages
+└── [   0]  ./vcs.xml
+
+22 directories, 48 files
