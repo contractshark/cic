@@ -1,0 +1,26 @@
+{
+  "name": "splunk-adaptor",
+  "version": "1.0.0",
+  "description": "splunk adaptor for accessing logs",
+  "author": "sam <sam@freighttrust.com>",
+  "homepage": "https://github.com/freight-trust/",
+  "license": "MIT",
+  "main": "lib/splunk-adaptor.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/contractshark/cic.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/contractshark/cic/issues"
+  }
+}
