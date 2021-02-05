@@ -1,14 +1,15 @@
-# `logging`
+# `log4evm: ethereum event logging`
 
-> TODO: description
+> Logging configuration for Ethereum Network Events
 
 ## Usage
 
+```js
+const log4-evm = require('logging');
 ```
-const logging = require('logging');
 
-// TODO: DEMONSTRATE API
-```
+### log4evm
+
 ```javascript
 const log4evm = require('log4-evm');
 const config = {
