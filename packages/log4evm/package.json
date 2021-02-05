@@ -1,7 +1,7 @@
 {
-  "name": "logging",
+  "name": "contractshark-logging",
   "version": "1.0.0",
-  "description": "> TODO: description",
+  "description": "logging configuration",
   "author": "sam <sam@freighttrust.com>",
   "homepage": "https://github.com/freight-trust/",
   "license": "MIT",
