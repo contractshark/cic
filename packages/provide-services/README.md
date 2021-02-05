@@ -1,11 +1,13 @@
 # `provide-services`
 
-> TODO: description
+> Mocking Repo
 
 ## Usage
 
 ```
+// Mock Web3 Provider / External Service
+
 const provideServices = require('provide-services');
 
-// TODO: DEMONSTRATE API
+
 ```
